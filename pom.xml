@@ -2,13 +2,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>as</groupId>
-  <artifactId>CampusMgmtSyatem</artifactId>
-
-  <packing>jar</packing>
+  <groupId>SE</groupId>
+  <artifactId>CampusMgmtSystem</artifactId>
+<version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
   <name>JPROJECT</name>
-  <url>local:host:8080/FoodSystem</url>
+  <url>http://local:host:8080/FoodSystem</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,12 +17,13 @@
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>as</artifactId>
+      <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
   <build>
+  <directory>build-output</directory>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -33,6 +34,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>Food-system-xyz>/FinalName>
+    <finalName>Food-system-xyz</finalName>
   </build>
 </project>
