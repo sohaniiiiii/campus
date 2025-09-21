@@ -33,5 +33,6 @@ public class App
         // docker run -d -p 8080:8080(or 8009) name:tag
         // docker tag name:tag user_name/name:tag
         // docker push user_name/name:tag
+        // .
     }
 }
